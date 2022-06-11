@@ -1,0 +1,23 @@
+h1, 
+h2,
+h3 {
+    text-align: center;
+    color: rgb(220, 20, 47)
+}
+
+body {
+    background-color: rgb(20, 220, 120);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center.salmon,
+.center.ravens {
+    height: auto;
+    width: 400px;
+}
