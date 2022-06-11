@@ -21,19 +21,32 @@ body {
     width: 50%;
 }
 
+/*The main pictures at the top of each page*/
 .center.salmon,
-.center.ravens {
+.center.ravens,
+.center.chicken,
+.center.pork {
     height: auto;
     width: 400px;
 }
 
+/*The three main links on the home page*/
 .three.recipes {
     background-color: salmon;
     text-align: center;
     height: 90px;
     width: 750px;
-    margin: 25px 560px;
+    margin: 25px auto;
     padding: 25px;
     border: 2px black dotted;
     display: flex;
+}
+
+.index-food-pics {
+    height: 150px;
+    width: 100x;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-evenly;
 }
