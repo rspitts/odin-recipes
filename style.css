@@ -31,7 +31,7 @@ body {
 }
 
 /*The three main links on the home page*/
-.three.recipes {
+.three-recipes {
     background-color: salmon;
     text-align: center;
     height: 90px;
@@ -49,4 +49,13 @@ body {
     margin-right: 200px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.salmon-small-text,
+.chicken-small-text,
+.pork-small-text {
+    background-color: salmon;
+    border: 2px solid black;
+    margin-left: 250px;
+    margin-right: 250px;
 }
