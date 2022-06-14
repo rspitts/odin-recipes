@@ -45,8 +45,8 @@ body {
 .index-food-pics {
     height: 150px;
     width: 100x;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 525px;
+    margin-right: 525px;
     display: flex;
     justify-content: space-evenly;
 }
